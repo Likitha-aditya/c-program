@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+int i, n ;
+Printf("\n enter any number to find factors");
+Scanf("%d",& n);
+Printf ("\n factor of given number is:");
+For(I=1;I<=n;I++)
+{
+if(n %i==0)
+{
+Printf("%d",I);
+}
+}
+return 0;
+}
