@@ -1,0 +1,29 @@
+Ass1:
+
+Write a program to print the following pattern 
+
+#include <studio.h>
+
+void main() {
+
+clrscr();
+
+int i;
+
+int no;
+
+   printf("\nC program to print Odd numbers : ");
+
+   for ( i = 0 ; i < 20 ; i++ )
+
+   {
+
+      i = i+1;
+
+      printf("%d  ", i);
+
+        }
+
+getch(); 
+
+}
